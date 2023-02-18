@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+.box{
+    align-items: start;
+    border: 1px solid #002ead;
+    height: 50vh;
+    width: 100vh;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #002ead;
+}
+h2{
+    text-align: center;
+    font-size: 2em ;
+    color:white;
+    letter-spacing: 0.05em;
+    font-family: sans-serif lato;
+}
+.enquiry{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #002ead;
+    border-radius: 5px;
+    width: 85vh;
+    height: 9vh;
+    background-color: white;
+    color: black;
+    margin: 12px 12px 15px 50px;
+}
+p{
+    font-size: 1.5em;
+    margin-left: 10px;
+    font-family: sans-serif lato;
+}
+.icon{
+    margin-right: 10px;
+    margin-top: 15px;
+    color: #002ead;
+    border: 2px solid #002ead;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.invisible{
+    display: none;
+}

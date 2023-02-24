@@ -6,19 +6,22 @@ import Answers from "./Answers";
 
 const Questions = (props) => {
     const [toggle, setToggle]= useState(false)
+
     return (
         <div>
             <div className='enquiry'>
                 <p key = {props.id}>{props.inquiry}</p>
-                <FontAwesomeIcon icon={faPlus} border size='xl' className='icon' onClick={()=>setToggle(!toggle)}/>
+                <FontAwesomeIcon icon={faPlus} border size='xl' className='icon' onClick={()=> setToggle(!toggle)} />
             </div>
+            {toggle&&
 
-            {toggle &&(
-
+                (
                 <Answers info = 'Yes, it is.'/>,
                 <Answers info = 'It costs $50'/>,
                 <Answers info = 'Any supermarket nearest to you'/>
-            )}
+            )
+            }
+
         </div>
     )
 }

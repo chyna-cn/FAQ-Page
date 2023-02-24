@@ -3,7 +3,7 @@ const Answers = (props) => {
     return (
             <div>
              <div className='enquiry invisible'>
-                 <p>{props.info}</p>
+                 <p key = {props.id}>{props.info}</p>
              </div>
             </div>
     )

@@ -2,7 +2,6 @@ h1{
     text-align: center;
 }
 .box{
-    align-items: start;
     border: 1px solid #002ead;
     height: 50vh;
     width: 100vh;
@@ -40,6 +39,4 @@ p{
     border: 2px solid #002ead;
     border-radius: 5px;
     background-color: lightblue;
-}
-.invisible{
 }

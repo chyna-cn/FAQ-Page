@@ -6,7 +6,7 @@ const App = () => {
         <div>
             <div className='container'>
                 <h1>FAQ/ACCORDION</h1>
-                <div className='box' style={{height: !toggle? '50vh': '70vh'}} >
+                <div className='box'>
                     <h2>Frequently asked questions</h2>
             <Questions inquiry='Is this a good product?' answer="yes, it is."/>
 

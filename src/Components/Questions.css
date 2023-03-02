@@ -3,7 +3,6 @@ h1{
 }
 .box{
     border: 1px solid #002ead;
-    height: 50vh;
     width: 100vh;
     margin: auto;
     border-radius: 25px;
@@ -25,7 +24,7 @@ h2{
     height: 9vh;
     background-color: white;
     color: black;
-    margin: 12px 12px 15px 50px;
+    margin: 12px 12px 18px 50px;
 }
 p{
     font-size: 1.5em;
